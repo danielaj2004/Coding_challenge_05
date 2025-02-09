@@ -31,3 +31,10 @@ cartItems.unshift("strawberry"); // adds new item to beginning
 cartItems.shift(); // removes beginning item
 
 console.log(cartItems);
+
+// Task 4: map method
+
+let prices = [100, 200, 300]; // array of prices
+const discount = 0.9; // 10% discount
+let discountPrices = prices.map(prices => prices * discount)
+console.log(discountPrices);
