@@ -21,3 +21,13 @@ const order = {
     }
 }; // console log of customer order details
 order.displayOrder();
+
+// task 3: Array Manipulation (push, pop, shift, unshift)
+
+let cartItems = ["apple", "banana", "lemon"]; // array of cart items
+cartItems.push("orange"); // adds new items
+cartItems.pop(); // removes last item
+cartItems.unshift("strawberry"); // adds new item to beginning
+cartItems.shift(); // removes beginning item
+
+console.log(cartItems);
