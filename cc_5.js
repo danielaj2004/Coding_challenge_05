@@ -50,3 +50,9 @@ console.log(availableProducts);
 let sales = [500, 300, 200, 400]; // array of sales
 let totalRevenue = sales.reduce((total, sales) => total + sales, 0); // function for total revenue
 console.log(totalRevenue);
+
+// Task 7: find() Method
+
+let customers = ["Alice", "Bob", "Charlie", "David"]; // array of customer names
+let customer = customers.find(c => c === "Charlie"); // finding customer
+console.log(customer);
