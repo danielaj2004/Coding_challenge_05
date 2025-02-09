@@ -54,7 +54,7 @@ console.log(totalRevenue);
 // Task 7: find() Method
 
 let customers = ["Alice", "Bob", "Charlie", "David"]; // array of customer names
-let customer = customers.find(c => c === "Charlie"); // finding customer
+let customer = customers.find(c => c === "Charlie"); // finding customer Charlie
 console.log(customer);
 
 // Task 8: Function Declaration
