@@ -38,3 +38,9 @@ let prices = [100, 200, 300]; // array of prices
 const discount = 0.9; // 10% discount
 let discountPrices = prices.map(prices => prices * discount)
 console.log(discountPrices);
+
+// Task 5: Filter Method
+
+let inventory = [3, 0, 7, 2, 10, 9]; // array of inventory
+let availableProducts = inventory.filter(stock => stock > 0); // filter out no stocks
+console.log(availableProducts);
